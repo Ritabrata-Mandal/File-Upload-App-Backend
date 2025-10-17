@@ -1,4 +1,4 @@
-# File Upload App Backend — Brief & Interview-friendly
+# File Upload App Backend 
 
 One-line summary
 A minimal, production-oriented Node.js backend for multipart file uploads (local or Cloudinary), with DB-agnostic metadata storage and optional email notifications.
