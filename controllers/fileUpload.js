@@ -49,6 +49,17 @@ async function uploadFileToCloudinary(file,folder,quality){
 
     //necessary
     options.resource_type="auto";
+
+    //At this point
+    //options = {
+    //   folder: "Backend",
+    //   quality: 10,
+    //   resource_type: "auto"
+    // }
+
+
+
+
     return await cloudinary.uploader.upload(file.tempFilePath,options);
 }
 
