@@ -40,7 +40,8 @@ function isFileTypesSupported(type,supportedTypes)
 }
 
 async function uploadFileToCloudinary(file,folder,quality){
-    const options={folder};
+    const options={folder};//const options = { folder: folder };
+
 
     if(quality){//if there is valid value in quality
         options.quality=quality;
