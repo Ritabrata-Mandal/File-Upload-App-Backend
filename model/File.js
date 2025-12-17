@@ -22,7 +22,7 @@ const fileSchema=new mongoose.Schema({
 
 //post middleware
 
-fileSchema.post("save", async function(doc){//doc is the document that has recemtly been saved in MongoDB
+fileSchema.post("save", async function(doc){//doc is the document that has recently been saved in MongoDB
     try{
         console.log("DOC",doc);
 
